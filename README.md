@@ -20,9 +20,6 @@ Below is a link to the deployed site and a snapshot of the page below:
 image of home page
 ![image of the weather forecast.]  
 
-assets\screencapture-dscoderman-github-io-Weather-App-2023-04-03-23_24_01.jpg
-
-
 
 
 
