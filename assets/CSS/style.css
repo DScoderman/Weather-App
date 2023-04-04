@@ -1,0 +1,11 @@
+:root {
+
+    background-color: lightblue;
+    color: black;
+}
+
+.class-section {
+
+    display: flex;
+    flex-direction: row;
+}
