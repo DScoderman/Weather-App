@@ -34,4 +34,4 @@ assets\screencapture-dscoderman-github-io-Weather-App-2023-04-03-23_24_01.jpg
 
 I used Open Weather API database to obtain the weather data. Link to their site here: 
 
-<link href="https://openweathermap.org/api">
+<https://openweathermap.org/api>
