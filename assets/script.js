@@ -7,6 +7,10 @@ var saveButton = document.querySelector('.save');
 var weatherSearch = document.querySelector('.weatherSearch');
 
 // items for following days
+var temp1=document.querySelector('#temp1');
+var wind1=document.querySelector('#wind1');
+var humiity1=document.querySelector('#humidity1');
+
 
 var temp2=document.querySelector('#temp2');
 var wind2=document.querySelector('#wind2');
@@ -25,7 +29,12 @@ var cityName=document.querySelector("#cityName");
 var temp=document.querySelector('#temp');
 var wind=document.querySelector('#wind');
 var humidity=document.querySelector('#humidity');
+var date=document.querySelector("#date");
 
+
+
+
+// day 2 stuff
 var temp2=document.querySelector('#temp2');
 var wind2=document.querySelector('#wind2');
 var humidity2=document.querySelector('#humidity2');
@@ -35,6 +44,29 @@ var humidity2=document.querySelector('#humidity2');
     temp.textContent="temp: "+ data.list[0].main.temp +" degrees" 
     wind.textContent="wind: "+ data.list[0].wind.speed +" mph"
     humidity.textContent="humidity: "+ data.list[0].main.humidity + " %"
+
+
+
+
+    console.log(data)
+    cityName.textContent=data.city.name
+    temp1.textContent="temp: "+ data.list[0].main.temp +" degrees" 
+    wind1.textContent="wind: "+ data.list[0].wind.speed +" mph"
+    humidity1.textContent="humidity: "+ data.list[0].main.humidity + " %"
+//     dateOne.textContent = data.list[0].dt_txt.split(" ")[0]
+
+
+
+
+
+
+
+
+//     dateOne.textContent = data.list[0].dt_txt.split(" ")[0]
+//    ///this below is for the icon
+//     var iconOne = document.createElement("img")
+//     iconOne.setAttribute("src", "https://openweathermap.org/img/wn/" + data.list[0].weather[0].icon + "@2x.png")
+//     dateOne.appendChild(iconOne)
 
     console.log(data)
     cityName.textContent=data.city.name

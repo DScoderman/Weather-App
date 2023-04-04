@@ -4,8 +4,7 @@
     color: black;
 }
 
-.class-section {
+#card-main {
 
-    display: flex;
-    flex-direction: row;
+    margin-left: 50%;
 }
