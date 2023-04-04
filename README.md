@@ -12,13 +12,15 @@ Users need to type in a city in the search bar. Once done, click the search butt
 
 Below is a link to the deployed site and a snapshot of the page below:
 
-<link href="https://dscoderman.github.io/Weather-App/">
+<https://dscoderman.github.io/Weather-App/>
 
 
 
 
+image of home page
+![image of the weather forecast.]  
 
-
+assets\screencapture-dscoderman-github-io-Weather-App-2023-04-03-23_24_01.jpg
 
 
 
